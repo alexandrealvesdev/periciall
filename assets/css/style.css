@@ -1,0 +1,177 @@
+/* Bootstrap */
+
+.active {
+    color: #007BFF !important;
+}
+
+.text-primary {
+    color: #494949 !important;
+}
+
+.color-primary {
+    color: #007BFF !important;
+}
+
+.bg-primary {
+    background-color: #EEEEEE !important;
+}
+
+.bg-secondary {
+    background-color: #0068d6 !important;
+}
+
+.bg-tertiary {
+    background-color: #004da0 !important;
+}
+
+/* Navbar */
+
+.navbar {
+    box-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, 0.56);
+}
+
+/* Banner */
+
+.banner {
+    z-index: -1;
+    width: 100%;
+    height: 90vh;
+    background-image: url(../images/bannercidadecomarvores.webp);
+    background-size: cover;
+    background-position: 55% 10%;
+    margin-top: 4.2rem;
+}
+
+.containerTexts {
+    height: 80vh !important;
+    color: #fff;
+    font-size: 3.5rem;
+    font-weight: 700;
+    line-height: 4.8rem;
+}
+
+.containerTexts a {
+    color: #fff;
+    border: 2px solid #fff;
+    font-size: 1.8rem;
+    font-weight: 500;
+    border-radius: 3px;
+    background: #ffffff1f;
+    margin-top: 4.5rem !important;
+}
+
+.containerTexts a:hover {
+    background: #007BFF;
+    border: 2px solid #0061c9;
+}
+
+.textDestak {
+    background: #007BFF;
+    padding: 0 2rem;
+    border-radius: 25px 0 25px 0;
+}
+
+@media screen and (max-width: 768px) {
+    .banner {
+        margin-top: 4rem;
+        height: 85vh;
+    }
+
+    .containerTexts {
+        font-size: 1.9rem;
+        font-weight: 700;
+        line-height: 3.4rem;
+    }
+
+    .containerTexts a {
+        font-size: 1.5rem;
+    }
+
+    .textDestak {
+        background: #007BFF;
+        padding: .5rem;
+        border-radius: 25px 0 25px 0;
+    }
+}
+
+/* About */
+
+.aboutTexts {
+    border-width: 2px;
+    border-bottom: 3px solid #007BFF;
+}
+
+/* Services */
+
+@media screen and (max-width: 768px) {
+    .cardSize {
+        width: 90% !important;
+        padding: 0;
+    }
+}
+
+/* Slider */
+
+.slick-slide {
+    margin: 0 20px;
+}
+.slick-slide img {
+    width: 100%;
+}
+.slick-list {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+.slick-list:focus {
+    outline: none;
+}
+.slick-slide {
+    float: left;
+    height: 100%;
+    min-height: 1px;
+}
+.slick-slide img {
+    display: block;
+}
+.slick.initialized .slick-slide {
+    display: block;
+}
+.slick-loading .slick-slide {
+    visibility: hidden;
+}
+
+/* Footer */
+
+.bi-whatsapp,
+.bi-instagram {
+    font-size: 1.3rem;
+}
+
+.bi-geo-alt {
+    font-size: 1.4rem;
+}
+
+a .bi-whatsapp.second,
+a .bi-instagram,
+a .bi-geo-alt {
+    background: #007BFF;
+    width: 100px;
+    height: 100px;
+    padding: 4px 9px;
+    border-radius: 200px;
+    cursor: pointer;
+    color: #fff;
+}
+
+a .bi-whatsapp.second:hover,
+a .bi-instagram:hover,
+a .bi-geo-alt:hover {
+    background: #1787ff;
+}
+
+.aboutFooter {
+    padding-right: 5.5rem !important;
+}
